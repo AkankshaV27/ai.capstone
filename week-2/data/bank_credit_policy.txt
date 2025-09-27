@@ -1,0 +1,5 @@
+Bank Credit Policy Manual - Section 4.5: High Risk Loans.
+Any loan exceeding $500,000 or any loan where the applicant's Debt-to-Income (DTI) ratio is above 40% is classified as High Risk.
+All High Risk loans must be routed to a Human Analyst for final approval, regardless of automated risk score.
+Mortgage loans require a maximum 35% DTI. Unsecured personal loans have a maximum DTI of 45%.
+Section 7.1: DTI Calculation. DTI is calculated as total monthly debt payments divided by total monthly gross income.
