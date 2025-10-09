@@ -10,8 +10,8 @@ It’s built with **LangChain**, **LangGraph**, and **FastAPI**, connecting mult
 | Component | Description | Port |
 |------------|--------------|------|
 | 🧮 `mcp_financial_server.py` | Hosts **financial tools** such as DTI (Debt‑to‑Income) and collateral valuation via **FastMCP**. | `8000` |
-| 📚 `retrieval_agent_server.py` | Loads credit policy docs, builds **FAISS + BM25 hybrid retriever**, and exposes an API for RAG context. | `8001` |
-| 🧠 `analysis_agent_server.py` | Runs a **Gemini LLM + Cohere ReRank** pipeline, connecting to MCP tools to reason and compute results. | `8002` |
+| 📚 `retrieval_agent_server.py` | Loads credit policy docs, builds **FAISS + BM25 hybrid retriever**, and exposes an API for RAG context. | `8001` |port
+| 🧠 `analysis_agent_server.py` | Runs a **Gemini LLM + Cohere ReRank** pipeline, connecting to MCP tools to reason and compute results. | `8002` | port
 | 🔗 `main_agent_orchestrator.py` | Coordinates the workflow — retrieval → analysis → optional human review → decision. | — |
 | 🤝 `agent_clients.py` | Contains HTTP/MCP clients to communicate across services. | — |
 | 🧾 `risk_state.py` | Defines the shared state (TypedDict) exchanged between workflow steps. | — |
