@@ -47,7 +47,7 @@ You can copy from `.env.example` and fill in your key.
 
 ### 4) Run
 ```bash
-python app.py
+python chatbot.py
 ```
 Type a question or instruction, press **Enter**, and you’ll see Gemini’s response.
 Type `exit` to quit.
